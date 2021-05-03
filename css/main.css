@@ -1,0 +1,490 @@
+@font-face {
+    src: url("../fonts/MullerBlack.ttf");
+    font-family: MullerBlack;
+}
+
+@font-face {
+    src: url("../fonts/MullerBold.ttf");
+    font-family: MullerBold;
+}
+
+@font-face {
+    src: url("../fonts/MullerExtraBold.ttf");
+    font-family: MullerExtraBold;
+}
+
+@font-face {
+    src: url("../fonts/MullerRegular.ttf");
+    font-family: MullerRegular;
+}
+
+body {
+    margin: 0;
+    font-family: MullerRegular, sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+.header__container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .logo__text {
+    font-size: 24px;
+    font-family: "MullerBlack", sans-serif;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+}
+
+.header__menu {
+    margin: 0 261px 0 248px;
+
+}
+
+.menu {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu__item {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+
+.menu__item_active {
+    border-bottom: 1px solid;
+}
+
+.main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__info {
+    max-width: 622px;
+}
+
+.title {
+    font-size: 45px;
+    font-family: "MullerExtraBold";
+    color: rgb(185, 145, 80);
+    line-height: 1.222;
+}
+
+.title .title__text {
+    color: #ffaf18;
+}
+
+.main__advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.advantage .advantage__text {
+    margin-left: 16px;
+}
+
+
+.advantage .advantage__title {
+    font-size: 16px;
+    font-family: "MullerExtraBold";
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.advantage .advantage__description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgb(255, 175, 24);
+    text-align: center;
+    font-size: 16px;
+    font-family: "MullerBold";
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.main__action {
+    margin-top: 60px;
+}
+
+.main__btn {
+    width: 224px;
+    display: inline-block;
+}
+
+.products__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+.basic-title {
+    font-size: 35px;
+    font-family: "MullerBold";
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+.products__items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product .product__title {
+    font-size: 18px;
+    font-family: "MullerBold";
+    color: rgb(56, 36, 0);
+    margin-top: 15px;
+}
+
+.product .product__text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+
+.product__btn {
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 17px;
+    width: 100%;
+}
+
+.product .product__image {
+    height: 155px;
+}
+
+.order {
+    overflow: hidden;
+}
+
+.order__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.order__text {
+    max-width: 384px;
+}
+
+.medium-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold";
+    line-height: 1.286;
+    color: #b99150;
+}
+
+.medium-title__text {
+    color: rgb(255, 175, 24);
+}
+
+.order__message {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    margin-top: 65px;
+}
+
+.order__form {
+    max-width: 330px;
+    position: relative;
+}
+
+.input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 23px;
+
+}
+
+.order__input {
+    width: 328px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+.order__btn {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.order__image {
+    width: 282px;
+    position: relative;
+}
+
+.order__img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 13px 1px rgba(152, 152, 152, 0.2);
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer__rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.menu__close {
+    display: none;
+}
+
+.error-input {
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+
+.error-input.name{
+    position: absolute;
+    top: 73px;
+    left: 1px;
+
+}
+
+
+.error-input.address{
+    position: absolute;
+    top: 163px;
+    left: 1px;
+}
+
+
+.error-input.phone{
+    position: absolute;
+    top: 257px;
+    left: 1px;
+}
+
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgb(255, 175, 24);
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 23px;
+    font-family: MullerRegular, sans-serif;
+    color: rgb(189, 152, 92);
+}
+
+#popup-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 328px;
+    height: 363px;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 26px;
+    color: rgb(189, 152, 92);
+}
